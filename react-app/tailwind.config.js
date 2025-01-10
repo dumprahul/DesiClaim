@@ -6,7 +6,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Open Sans', 'Arial', 'sans-serif'], // Add Open Sans to the sans family
+      },
+    },
   },
   plugins: [
     daisyui
